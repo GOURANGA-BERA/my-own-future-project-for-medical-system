@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer_registration</title>
+    <style>
+
+        body
+        {
+             background-image: url("medicine-doctor-touching-electronic-medical-record-tablet-dna-digital-healthcare-network-connection-hologram-modern-virtual-154742526.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             padding: 0%;
+
+        }
+
+        .head{
+
+            color: brown;
+            text-shadow: 3px 3px 3px rgb(139, 136, 136) ;
+
+        }
+    input[type=text],input[type=password]
+    {
+            width: 15%;
+            margin:8px 0;
+            padding: 3px;
+            cursor: pointer;
+            border: 5% solid rgb(1, 167, 42);
+    }
+       
+    /* form{
+         padding: 2%;
+        border: 3px solid #65cf0f;
+        background-color: aliceblue;
+        
+    } */
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1><center> <u> <b>customer registration form</b> </u>  </center> </h1>
+     </div>   
+        <form >
+           <label> FIRST NAME:</label>
+          <input type="text" name="first name" placeholder="first name" size="15"
+          required> <br>
+          <label> MIDDLE NAME:</label>
+          <input type="text" name="middle name" placeholder="middle name"size="15" required><br>
+          <label> LAST NAME:</label>
+          <input type="text" name="last name" placeholder="last name" size="15" required><br>
+          <br>
+           <label> GENDER:</label><br>
+           <input type="radio" name="male"  /> male
+           <input type="radio" name="male"  />female
+           <input type="radio" name="male" /> other
+           <br>
+           <br>
+           <label> phone number:</label>
+           <br>
+           <input type="text" name="country code" value="+91" size="2"/>
+           <input type="text" name="phone" size="10" placeholder="phone number" required/>
+           <br>
+           <table> address</table><br>
+           <textarea name="address" cols="80" rows="6" placeholder="address"> </textarea>
+           <br><br>
+           <label >email:</label>
+           <input type="email" id="email" name="email"  placeholder="email">
+           <br><br>
+           password:
+           <input type="password" name="pass" id="pass">
+          re_type password:
+           <input type="password" name="re pass" id="re pass">
+           <br><br>
+           <input  type="button" value="submit">
+         
+        </form>
+        
+</body>
+</html>
